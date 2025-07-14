@@ -1,0 +1,8 @@
+torch
+transformers
+newsapi-python
+googletrans==4.0.0rc1
+yfinance
+fpdf
+customtkinter
+pandas
