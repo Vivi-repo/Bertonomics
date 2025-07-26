@@ -3,7 +3,7 @@ from transformers import BertTokenizer, BertForSequenceClassification  # type: i
 import torch  # type: ignore
 from googletrans import Translator  # type: ignore
 
-newsapi = NewsApiClient(api_key='d3008ba0280c40a5939f06d6066de000')
+newsapi = NewsApiClient(api_key='NEWSAPI_KEY')
 tokenizer = BertTokenizer.from_pretrained("yiyanghkust/finbert-tone")
 model = BertForSequenceClassification.from_pretrained("yiyanghkust/finbert-tone")
 translator = Translator()
